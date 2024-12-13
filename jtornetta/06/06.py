@@ -142,9 +142,9 @@ def solve_puzzle(input_path: Path) -> Tuple[int, int]:
 def main() -> None:
     PROJECT_DIR = Path(__file__).parent
 
-        part1, part2 = solve_puzzle(PROJECT_DIR/'input.txt')
-        print(f"Part 1: The guard visits {part1} distinct positions")
-        print(f"Part 2: {part2} positions would create a patrol loop")
+    part1, part2 = solve_puzzle(PROJECT_DIR/'input.txt')
+    print(f"Part 1: The guard visits {part1} distinct positions")
+    print(f"Part 2: {part2} positions would create a patrol loop")
 
 if __name__ == "__main__":
     main()
